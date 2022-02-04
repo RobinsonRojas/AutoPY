@@ -1,8 +1,7 @@
 # AutoPY
+Test automatizado utilizando Selenium WebDriver, con Python.
 
-Install:
-
+## Install library:
 ```bash
-pip install webdriver-manager &&
-pip install webdriver-manager
+pip install selenium && pip install webdriver-manager
 ```
