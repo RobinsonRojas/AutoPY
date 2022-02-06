@@ -21,9 +21,10 @@ search_button = driver.find_element(By.NAME, "btnK")
 search_box.send_keys("Selenium")
 search_button.click()
 
-driver.set_window_size(500,500)
+driver.set_window_size(500, 500)
 
 print("\n ====== Test Results ======")
 print("✅ Tests successfully passed!")
-print(driver.title) # => "title de la web"
-print(driver.find_element(By.NAME, "q").get_attribute("value")) # => "Contenido del elemento en el estado actual"
+print(driver.title)  # => "title de la web"
+# => "Contenido del elemento en el estado actual"
+print(driver.find_element(By.NAME, "q").get_attribute("value"))
